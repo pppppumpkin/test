@@ -6,7 +6,10 @@
     <groupId>com.lynn</groupId>
     <artifactId>test</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <packaging>war</packaging>
+    <modules>
+        <module>owl</module>
+    </modules>
+    <packaging>pom</packaging>
     <name>test</name>
     <url>http://maven.apache.org</url>
 
@@ -34,6 +37,13 @@
             <artifactId>junit</artifactId>
             <version>RELEASE</version>
         </dependency>
+
+        <dependency>
+            <groupId>com.squareup.okhttp3</groupId>
+            <artifactId>okhttp</artifactId>
+            <version>3.9.1</version>
+        </dependency>
     </dependencies>
+
 
 </project>
